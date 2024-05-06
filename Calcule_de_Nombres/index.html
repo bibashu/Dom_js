@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule nombre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="effacerChamp()"">
+    <div class="container">
+        <h2>Calcule de deux (2) nombres</h2>
+        <label for="inputPassword5" class="form-label">Premier nombre: </label>
+
+<input type="number" required  id="inputPassword5" class="form-control f1">
+<label for="inputPassword5" class="form-label">Opérateur </label>
+<small>Veuillez choisir entre l'addition(+),soustraction(-), multiplication(*), la division(/)</small>
+
+<input type="text" required  id="inputPassword5" class="form-control op">
+
+<label for="inputPassword5" class="form-label">Deuxieme nombre: </label>
+<input type="number" required id="inputPassword5" class="form-control f2">
+<label for="inputPassword5" class="form-label mt-5">Resultat: </label>
+<input type="number"  readonly id="inputPassword5" class="form-control f3">
+<div class="btnGroup">
+<button type="submit" class="btn btn-primary calculer mt-5">Calculer</button>
+<button type="reset" class="btn btn-primary reset mt-5">Effacer</button>
+</div>
+    </div>
+    
+
+
+
+    <!-- Javascript -->
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(17, 1, 67);
+    color: white;
+}
+.cell-border{
+    outline: red;
+}
